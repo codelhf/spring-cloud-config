@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: order
   datasource:
       driver-class-name: com.mysql.jdbc.Driver
       username: root
@@ -16,6 +14,3 @@ spring:
   redis:
     host: localhost
     port: 6379
-
-env:
-  dev
