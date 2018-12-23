@@ -27,6 +27,12 @@ hystrix:
             timeoutInMilliseconds: 3000
 #feign中的hystrix
 feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
   hystrix:
     enabled: true
 
